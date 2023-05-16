@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>All Star Resort.ttf</string>
+		<string>PaybAck.ttf</string>
+		<string>MEPHISTO.TTF</string>
+		<string>Grindleaf.ttf</string>
+		<string>ofont.ru_Moderne Fette SchwabacherC.ttf</string>
+	</array>
+</dict>
+</plist>

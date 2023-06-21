@@ -243,7 +243,3 @@ class GPT : ObservableObject {
         print(self.choosenGenre)
     }
 }
-
-
-
-

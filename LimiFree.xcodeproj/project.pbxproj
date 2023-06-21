@@ -19,10 +19,6 @@
 		CE2D3C2829EC5DD9005270D9 /* ofont.ru_Moderne Fette SchwabacherC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D3C2729EC5DD9005270D9 /* ofont.ru_Moderne Fette SchwabacherC.ttf */; };
 		CE5A2D7829E4717600C0431B /* PaybAck.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5A2D7729E4717600C0431B /* PaybAck.ttf */; };
 		CE5A2D7A29E4743B00C0431B /* Grindleaf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5A2D7929E4743B00C0431B /* Grindleaf.ttf */; };
-		CE5B2C4629EF296200B2A840 /* filmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B2C4529EF296200B2A840 /* filmsApp.swift */; };
-		CE5B2C4829EF296200B2A840 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B2C4729EF296200B2A840 /* ContentView.swift */; };
-		CE5B2C4A29EF296300B2A840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5B2C4929EF296300B2A840 /* Assets.xcassets */; };
-		CE5B2C4D29EF296300B2A840 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5B2C4C29EF296300B2A840 /* Preview Assets.xcassets */; };
 		CE74560029E32CD900F39468 /* ColorFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7455FF29E32CD900F39468 /* ColorFile.swift */; };
 		CECD80C629E015AD000CB248 /* All Star Resort.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECD80C529E015AD000CB248 /* All Star Resort.ttf */; };
 		CEFDDB3229E06A6B00EB2DE9 /* MEPHISTO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CEFDDB3129E06A6B00EB2DE9 /* MEPHISTO.TTF */; };
@@ -41,12 +37,6 @@
 		CE2D3C2729EC5DD9005270D9 /* ofont.ru_Moderne Fette SchwabacherC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ofont.ru_Moderne Fette SchwabacherC.ttf"; sourceTree = "<group>"; };
 		CE5A2D7729E4717600C0431B /* PaybAck.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PaybAck.ttf; sourceTree = "<group>"; };
 		CE5A2D7929E4743B00C0431B /* Grindleaf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grindleaf.ttf; sourceTree = "<group>"; };
-		CE5B2C4329EF296200B2A840 /* films.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = films.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE5B2C4529EF296200B2A840 /* filmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filmsApp.swift; sourceTree = "<group>"; };
-		CE5B2C4729EF296200B2A840 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CE5B2C4929EF296300B2A840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE5B2C4C29EF296300B2A840 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CE5B2C4E29EF296300B2A840 /* films.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = films.entitlements; sourceTree = "<group>"; };
 		CE7455FF29E32CD900F39468 /* ColorFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFile.swift; sourceTree = "<group>"; };
 		CECD80C529E015AD000CB248 /* All Star Resort.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All Star Resort.ttf"; sourceTree = "<group>"; };
 		CECD80C729E015BD000CB248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -62,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE5B2C4029EF296200B2A840 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				CE1268EC29DEE88100131E63 /* gptFilmSearcher */,
-				CE5B2C4429EF296200B2A840 /* films */,
 				CE1268EB29DEE88100131E63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				CE1268EA29DEE88100131E63 /* LimiFree.app */,
-				CE5B2C4329EF296200B2A840 /* films.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,26 +110,6 @@
 				CE16A70F29E58B2200A99DC6 /* Data.xcdatamodeld */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		CE5B2C4429EF296200B2A840 /* films */ = {
-			isa = PBXGroup;
-			children = (
-				CE5B2C4529EF296200B2A840 /* filmsApp.swift */,
-				CE5B2C4729EF296200B2A840 /* ContentView.swift */,
-				CE5B2C4929EF296300B2A840 /* Assets.xcassets */,
-				CE5B2C4E29EF296300B2A840 /* films.entitlements */,
-				CE5B2C4B29EF296300B2A840 /* Preview Content */,
-			);
-			path = films;
-			sourceTree = "<group>";
-		};
-		CE5B2C4B29EF296300B2A840 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CE5B2C4C29EF296300B2A840 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		CE7455FD29E32C1C00F39468 /* Fonts */ = {
@@ -195,23 +156,6 @@
 			productReference = CE1268EA29DEE88100131E63 /* LimiFree.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE5B2C4229EF296200B2A840 /* films */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE5B2C5129EF296300B2A840 /* Build configuration list for PBXNativeTarget "films" */;
-			buildPhases = (
-				CE5B2C3F29EF296200B2A840 /* Sources */,
-				CE5B2C4029EF296200B2A840 /* Frameworks */,
-				CE5B2C4129EF296200B2A840 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = films;
-			productName = films;
-			productReference = CE5B2C4329EF296200B2A840 /* films.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,9 +167,6 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					CE1268E929DEE88100131E63 = {
-						CreatedOnToolsVersion = 14.3;
-					};
-					CE5B2C4229EF296200B2A840 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -247,7 +188,6 @@
 			projectRoot = "";
 			targets = (
 				CE1268E929DEE88100131E63 /* LimiFree */,
-				CE5B2C4229EF296200B2A840 /* films */,
 			);
 		};
 /* End PBXProject section */
@@ -267,15 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE5B2C4129EF296200B2A840 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE5B2C4D29EF296300B2A840 /* Preview Assets.xcassets in Resources */,
-				CE5B2C4A29EF296300B2A840 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -290,15 +221,6 @@
 				CE1268EE29DEE88100131E63 /* gptFilmSearcherApp.swift in Sources */,
 				CE16A71329E58C2500A99DC6 /* DataController.swift in Sources */,
 				CE16A71129E58B2200A99DC6 /* Data.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5B2C3F29EF296200B2A840 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE5B2C4829EF296200B2A840 /* ContentView.swift in Sources */,
-				CE5B2C4629EF296200B2A840 /* filmsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,64 +403,6 @@
 			};
 			name = Release;
 		};
-		CE5B2C4F29EF296300B2A840 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = films/films.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"films/Preview Content\"";
-				DEVELOPMENT_TEAM = QW6DP5F85H;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.myApps.swift.films;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		CE5B2C5029EF296300B2A840 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = films/films.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"films/Preview Content\"";
-				DEVELOPMENT_TEAM = QW6DP5F85H;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.myApps.swift.films;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,15 +420,6 @@
 			buildConfigurations = (
 				CE1268F929DEE88200131E63 /* Debug */,
 				CE1268FA29DEE88200131E63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE5B2C5129EF296300B2A840 /* Build configuration list for PBXNativeTarget "films" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE5B2C4F29EF296300B2A840 /* Debug */,
-				CE5B2C5029EF296300B2A840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
